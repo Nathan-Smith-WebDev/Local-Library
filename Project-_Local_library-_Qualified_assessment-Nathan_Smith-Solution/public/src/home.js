@@ -108,10 +108,10 @@ function getBookBorrowCount(book) {
   return count;
 }
 
-function mapBookNames(books){
-  let mappedBookNames = books.map((book) => book.name);
+function mapBookTitles(books){
+  let mappedBookTitle = books.map((book) => book.title);
   
-  return mappedBookNames;
+  return mappedBookTitle;
 }
 
 module.exports = {
